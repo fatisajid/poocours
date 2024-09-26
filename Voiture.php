@@ -6,8 +6,11 @@ class Voiture
 {
     // Propriétés de la voiture:
     public float $vitesse;
+
     public string $marque;
+
     public float $temps;
+
     public function calculerDistance() : string
     {
         // Calcule la distance en multipliant la vitesse par le temps et ajoute l'unité
